@@ -1,0 +1,31 @@
+package producto1;
+
+/**
+ *
+ * @author scarl
+ */
+public class Producto1 {
+    
+    public static void show_info_product(){
+    int codigo = 1;
+    String name = "leche";
+    String marca = "colanta";
+    String presentacion = "Buena";
+    String tabla_nutricional = "15 calorías";
+    String procedencia = "Caldas";
+    String tipo = "lacteo";
+    String empaque = "bolsa";
+    String tamaño = "mediano";
+    String estado = "bueno";
+    String urgencia = "baja";
+    
+        System.out.println("el producto con código " + codigo + "de nombre " + name + "con marca " + marca + "que tiene una presentacion " + presentacion + "Y con tabla nutricional " + tabla_nutricional + "de procedencia " + procedencia + "de tipo " + tipo + "que viene en empaque de " + empaque + "tamaño " + tamaño + "en un estado " + estado + "y con urgencia " + urgencia);
+          
+    }
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        show_info_product();
+    }
