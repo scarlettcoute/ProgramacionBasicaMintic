@@ -7,7 +7,7 @@ package practice1.g56;
 
 /**
  *
- * @author scarcoute
+ * @author scarl
  */
 public class Main {
 
